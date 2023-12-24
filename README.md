@@ -1,5 +1,5 @@
 """Representing an individual financial expense"""
-
+```
 import uuid
 from datetime import datetime, timezone
 
@@ -26,9 +26,9 @@ class Expense:
             'created_at': self.created_at.isoformat(),
             'updated_at': self.updated_at.isoformat()
         }
-
+```
 """This Represents a collection of financial expense"""
-
+```
 class ExpenseDatabase:
     def __init__(self):
         self.expenses = []
@@ -74,7 +74,7 @@ expense_db.remove_expense(expense2.id)
 
 print("\nExpenses after removal:")
 print(expense_db.to_dict())
-
+```
 
 # Expense Tracker
 
@@ -113,7 +113,7 @@ This project implements two classes in Python, Expense and ExpenseDatabase, to m
 
 ## GitHub Repository
 
-[Expense Tracker Repository](https://github.com/sulaimonibrahim/Altschool_Assessment)
+[Expense Tracker](https://github.com/sulaimonibrahim/Altschool_Assessment)
 
 ## How to Clone
 To clone the repopsitory use the link below:
